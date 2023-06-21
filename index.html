@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang = "en">
     <head>
         <title>The Chaarag Family</title>
         <meta charset="UTF-8">
@@ -10,16 +11,23 @@
     </head>
     <body>
         <div id = "header">
-            <nav>
-                <img src = "Images/logo.png" class = "logo">
-                <ul>
-                    <li><a href = "#">Narendra Singh Chaarag</a></li>
-                    <li><a href = "#">Yogita Chaarag</a></li>
-                    <li><a href = "#">Harshita Chaarag</a></li>
-                    <li><a href = "ojasva.html">Ojasva Chaarag</a></li>
-                    <li><a href = "#">Contact</a></li>
-                </ul>
-            </nav>
+            <div class = "container">
+                <nav>
+                    <img src = "Images/logo.png" class = "logo">
+                    <ul id = "sidemenu">
+                        <li><a href = "narendra.html">Narendra Singh Chaarag</a></li>
+                        <li><a href = "yogita.html">Yogita Chaarag</a></li>
+                        <li><a href = "harshita.html">Harshita Chaarag</a></li>
+                        <li><a href = "ojasva.html">Ojasva Chaarag</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick = "closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" id = "open-menu-button" onclick = "openmenu()"></i>
+                </nav>
+                <div class = "header-text">
+                    <p>Father | Mother | Daughter | Son</p>
+                    <h1>Hello, we are <span> The Chaarag's </span> <br> from Agra</h1>
+                </div>
+            </div>
         </div>
         <div id="family">
             <div class="container">
@@ -28,32 +36,32 @@
                     <div class="family-member">
                         <img src = "Images/work-1.png">
                         <div class="layer">
-                            <h3>Buncha 3D Games</h3>
-                            <p>I don't really do 2D but if needed, kar lunga, no issues.</p>
+                            <h3>Narendra Singh Chaarag</h3>
+                            <p>An army man of the highest calibre.</p>
                             <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
                     <div class="family-member">
                         <img src = "Images/work-2.png">
                         <div class="layer">
-                            <h3>AI, Sure</h3>
-                            <p>I made one model that failed, and one that's currently in a company's server.</p>
+                            <h3>Yogita Chaarag</h3>
+                            <p>Educator and homemaker extraordinaire.</p>
                             <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
                     <div class="family-member">
                         <img src = "Images/work-3.png">
                         <div class="layer">
-                            <h3>Apps...Done Those</h3>
-                            <p>By Which I mean I made one...buggy as all hell.</p>
+                            <h3>Harshita Chaarag</h3>
+                            <p>Image Consultant and Corporate-cum-LnD trainer reaching newer heights.</p>
                             <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
                     <div class="family-member">
                         <img src = "Images/work-4.png">
                         <div class="layer">
-                            <h3>Content</h3>
-                            <p>Behen ke liye likha tha.</p>
+                            <h3>Ojasva Chaarag</h3>
+                            <p>A Computer Science Engineer and Army Aspirant.</p>
                             <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
