@@ -365,6 +365,38 @@ nav .fa-solid{
     display: none;
 }
 
+#family{
+    padding: 50px 0;
+}
+
+.family-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.family-member{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.family-member img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 1s;
+}
+
+.family-member:hover img{
+    transform: scale(1.1);
+}
+
+.family-member:hover .layer{
+    height: 100%;
+}
+
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(Images/phone-background.png);
